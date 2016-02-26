@@ -28,13 +28,9 @@ Build it with Maven:
 On build completion, your local Maven repository will contain generated swrlapi-example-${version}.jar and swrlapi-example-${version}-jar-with-dependencies.jar files.
 The ./target directory will also contain these JARs.
 
-You can then run the application follows:
+You can then run the application as follows:
 
     mvn exec:java
-
-#### License
-
-The software is licensed under the [BSD 2-clause License](https://github.com/protegeproject/swrltab/blob/master/license.txt).
 
 #### Questions
 
