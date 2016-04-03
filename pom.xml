@@ -9,7 +9,7 @@
 
   <groupId>edu.stanford.swrl</groupId>
   <artifactId>swrlapi-example</artifactId>
-  <version>1.0.0-beta-52-SNAPSHOT</version>
+  <version>1.0.0-beta-52</version>
   <packaging>jar</packaging>
   <name>SWRLAPI Example</name>
 
@@ -24,6 +24,7 @@
     <connection>scm:git:git@github.com:protegeproject/swrlapi-example.git</connection>
     <developerConnection>scm:git:git@github.com:protegeproject/swrlapi-example.git</developerConnection>
     <url>https://github.com/protegeproject/swrlapi-example</url>
+    <tag>release-1.0.0-beta-52</tag>
   </scm>
 
   <dependencies>
