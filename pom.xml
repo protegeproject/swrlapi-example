@@ -9,7 +9,7 @@
 
   <groupId>edu.stanford.swrl</groupId>
   <artifactId>swrlapi-example</artifactId>
-  <version>1.0.0-beta-52-SNAPSHOT</version>
+  <version>1.0.0-beta-52</version>
   <packaging>jar</packaging>
   <name>SWRLAPI Example</name>
 
@@ -105,6 +105,6 @@
 
 
   <scm>
-    <tag>release-1.0.0-beta-51</tag>
+    <tag>release-1.0.0-beta-52</tag>
   </scm>
 </project>
