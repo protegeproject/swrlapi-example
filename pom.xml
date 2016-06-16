@@ -11,9 +11,11 @@
   <artifactId>swrlapi-example</artifactId>
   <version>1.0.10-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>SWRLAPI Example</name>
 
-   <properties>
+  <name>SWRLAPI Example</name>
+  <description>Minimal SWRLAPI-based project</description>
+
+  <properties>
 
     <swrlapi.version>1.0.10-SNAPSHOT</swrlapi.version>
     <swrlapi.drools.version>1.0.10-SNAPSHOT</swrlapi.drools.version>
@@ -102,13 +104,12 @@
 	  </execution>
 	</executions>
 	<configuration>
-	   <mainClass>org.swrlapi.example.SWRLAPIExample</mainClass>
+	  <mainClass>org.swrlapi.example.SWRLAPIExample</mainClass>
 	</configuration>
       </plugin>
 
     </plugins>
 
   </build>
-
 
 </project>

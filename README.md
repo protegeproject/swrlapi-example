@@ -5,7 +5,7 @@ to create and execute SWRL rules and SQWRL queries.
 
 You can import this project into your favourite IDE using its Maven-based project creation facility.
 
-### Building
+### Building and Running
 
 To build and run this project you must have the following items installed:
 
@@ -25,8 +25,9 @@ Build it with Maven:
 
     mvn clean install
 
-On build completion, your local Maven repository will contain generated swrlapi-example-${version}.jar and swrlapi-example-${version}-jar-with-dependencies.jar files.
-The ./target directory will also contain these JARs.
+On build completion, your local Maven repository will contain generated ```swrlapi-example-${version}.jar```
+and ```swrlapi-example-${version}-jar-with-dependencies.jar``` files.
+The ```./target``` directory will also contain these JARs.
 
 You can then run the application as follows:
 
