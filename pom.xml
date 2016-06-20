@@ -4,19 +4,21 @@
   <parent>
     <groupId>edu.stanford.swrl</groupId>
     <artifactId>swrlapi-parent</artifactId>
-    <version>1.0.9</version>
+    <version>1.0.10</version>
   </parent>
 
   <groupId>edu.stanford.swrl</groupId>
   <artifactId>swrlapi-example</artifactId>
-  <version>1.0.9</version>
+  <version>1.0.10</version>
   <packaging>jar</packaging>
+
   <name>SWRLAPI Example</name>
+  <description>Minimal SWRLAPI-based project</description>
 
-   <properties>
+  <properties>
 
-    <swrlapi.version>1.0.9</swrlapi.version>
-    <swrlapi.drools.version>1.0.9</swrlapi.drools.version>
+    <swrlapi.version>1.0.10</swrlapi.version>
+    <swrlapi.drools.version>1.0.10</swrlapi.drools.version>
 
   </properties>
 
@@ -24,7 +26,7 @@
     <connection>scm:git:git@github.com:protegeproject/swrlapi-example.git</connection>
     <developerConnection>scm:git:git@github.com:protegeproject/swrlapi-example.git</developerConnection>
     <url>https://github.com/protegeproject/swrlapi-example</url>
-    <tag>release-1.0.9</tag>
+    <tag>release-1.0.10</tag>
   </scm>
 
   <dependencies>
@@ -102,13 +104,12 @@
 	  </execution>
 	</executions>
 	<configuration>
-	   <mainClass>org.swrlapi.example.SWRLAPIExample</mainClass>
+	  <mainClass>org.swrlapi.example.SWRLAPIExample</mainClass>
 	</configuration>
       </plugin>
 
     </plugins>
 
   </build>
-
 
 </project>
