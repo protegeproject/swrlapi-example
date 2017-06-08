@@ -41,7 +41,7 @@ public class SWRLAPIExample
 
       // Process the SQWRL result
       if (result.next())
-        System.out.println("x: " + result.getLiteral("x").getInt());
+        System.out.println("x: " + result.getLiteral("x").getInteger());
 
     } catch (OWLOntologyCreationException e) {
       System.err.println("Error creating OWL ontology: " + e.getMessage());
