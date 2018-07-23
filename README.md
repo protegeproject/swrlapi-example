@@ -1,4 +1,4 @@
-###SWRLAPI Example
+## SWRLAPI Example
 
 This project provides a simple example of a Java application that uses the [SWRLAPI](https://github.com/protegeproject/swrlapi/wiki)
 to create and execute SWRL rules and SQWRL queries. 
