@@ -1,6 +1,5 @@
 package org.swrlapi.example;
 
-import org.checkerframework.checker.nullness.qual.NonNull;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.OWLOntology;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
@@ -21,10 +20,10 @@ public class SWRLAPIExample
     if (args.length > 1)
       Usage();
 
-    Optional<@NonNull String> owlFilename = args.length == 0 ? Optional.<@NonNull String>empty() : Optional.of(args[0]);
-    Optional<@NonNull File> owlFile = (owlFilename != null && owlFilename.isPresent()) ?
+    Optional<String> owlFilename = args.length == 0 ? Optional.<String>empty() : Optional.of(args[0]);
+    Optional<File> owlFile = (owlFilename != null && owlFilename.isPresent()) ?
       Optional.of(new File(owlFilename.get())) :
-      Optional.<@NonNull File>empty();
+      Optional.<File>empty();
 
     try {
       // Create an OWL ontology using the OWLAPI
