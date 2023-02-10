@@ -9,9 +9,10 @@ You can import this project into your favourite IDE using its Maven-based projec
 
 To build and run this project you must have the following items installed:
 
-+ [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-+ A tool for checking out a [Git](http://git-scm.com/) repository
-+ Apache's [Maven](http://maven.apache.org/index.html)
++ [Java 11](https://www.oracle.com/java/technologies/downloads/archive/)
++ A tool for checking out a [Git](https://git-scm.com/) repository
++ Apache's [Maven](https://maven.apache.org/index.html)
++ A Protégé (5.6.0 or higher) distribution. Download [here](https://protege.stanford.edu/products.php#desktop-protege).
 
 Get a copy of the latest code:
 
