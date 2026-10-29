@@ -4,13 +4,13 @@
   <parent>
     <groupId>edu.stanford.swrl</groupId>
     <artifactId>swrlapi-parent</artifactId>
-    <version>2.1.4</version>
+    <version>2.1.5-SNAPSHOT</version>
     <relativePath>../swrlapi-parent/pom.xml</relativePath>
   </parent>
 
   <groupId>edu.stanford.swrl</groupId>
   <artifactId>swrlapi-example</artifactId>
-  <version>2.1.4-SNAPSHOT</version>
+  <version>2.1.5-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>SWRLAPI Example</name>
@@ -18,8 +18,8 @@
 
   <properties>
 
-    <swrlapi.version>2.1.4</swrlapi.version>
-    <swrlapi.drools.version>2.1.4</swrlapi.drools.version>
+    <swrlapi.version>2.1.5-SNAPSHOT</swrlapi.version>
+    <swrlapi.drools.version>2.1.5-SNAPSHOT</swrlapi.drools.version>
 
   </properties>
 
