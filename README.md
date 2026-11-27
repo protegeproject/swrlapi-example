@@ -11,7 +11,7 @@ Use JDK 17 / Maven 3.9 and the `protege-6` sibling checkouts from the build guid
 From the workspace root:
 
 ```sh
-mvn -B -f swrlapi-project/pom.xml -Pcore,static-analysis clean verify
+mvn -B -f swrlapi-project/pom.xml -Pcore,nullness,static-analysis clean verify
 java -jar swrlapi-example/target/swrlapi-example-2.1.5-SNAPSHOT-jar-with-dependencies.jar
 ```
 
